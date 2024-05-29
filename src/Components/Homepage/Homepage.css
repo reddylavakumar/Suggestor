@@ -1,0 +1,94 @@
+/* Homepage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #b7b7b7, #2575fc);
+    /* background-image: url('/public/webbackground.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login, .register {
+    margin: 0 10px;
+  }
+  
+  .login-button, .register-button {
+    background-color: #fff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover, .register-button:hover {
+    background-color: #2575fc;
+    color: #fff;
+  }
+  
+  .main {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .log-content, .reg-content {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input::placeholder {
+    color: #bbb;
+  }
+  
+  .log-submit, .reg-submit {
+    background-color: #fff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .log-submit:hover, .reg-submit:hover {
+    background-color: green;
+    color: #fff;
+  }
+  
+  b {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px 0;
+  }
+  
