@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:linear-gradient(to left, #b7b7b7, #2575fc);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin-top: 0px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+}

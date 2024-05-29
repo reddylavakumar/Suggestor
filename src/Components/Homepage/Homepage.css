@@ -1,5 +1,7 @@
 /* Homepage.css */
-
+*{
+  scrollbar-width: none;
+}
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #b7b7b7, #2575fc);
@@ -13,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
   }
   
   .main-container {
@@ -56,18 +59,20 @@ body {
   
   .log-content, .reg-content {
     margin-bottom: 20px;
+    
   }
   
   input[type="text"], input[type="password"], input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: none;
+    border-style: dotted;
     border-radius: 5px;
+    background:linear-gradient(to right, #b7b7b7, #2575fc);
   }
   
   input::placeholder {
-    color: #bbb;
+    color: #ffffff;
   }
   
   .log-submit, .reg-submit {
@@ -84,6 +89,7 @@ body {
   .log-submit:hover, .reg-submit:hover {
     background-color: green;
     color: #fff;
+    
   }
   
   b {
